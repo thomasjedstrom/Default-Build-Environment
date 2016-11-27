@@ -7,9 +7,11 @@
  So basically, this avoids the client having to download a
  huge JS file anytime a line of code changes.  They only have
  to download vendor.js when a vendor library changes which
- should be less frequent.  Any files at aren't referenced
+ should be less frequent.  Any files that aren't referenced
  here will be bundled into main.js for the production build. */
 
  /* eslint-disable no-unused-vars */
 
- import fetch from 'whatwg-fetch';
+import fetch from 'whatwg-fetch';
+import jquery from 'jquery';
+import bootstrap from 'bootstrap';

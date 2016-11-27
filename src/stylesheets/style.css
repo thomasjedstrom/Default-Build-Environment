@@ -1,0 +1,10 @@
+@import url("bootstrap.css")
+
+*{
+	background-color: #8DDA6C;
+	font-family: sans-serif;
+}
+h1{
+	display: inline-block;
+	margin: auto;
+}
