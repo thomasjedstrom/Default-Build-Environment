@@ -7,10 +7,10 @@ import ExtractTextPlugin from 'extract-text-webpack-plugin';
 export default {
   debug: true,
   devtool: 'source-map',
-  noInfo: false,
+  noInfo: true,
   entry: {
-    vendor: path.resolve(__dirname, 'src/js/vendor'),
-    main: path.resolve(__dirname, 'src/js/app')
+    vendor: path.resolve(__dirname, 'src/scripts/vendor'),
+    main: path.resolve(__dirname, 'src/scripts/app')
   },
   target: 'web',
   output: {
