@@ -24,7 +24,7 @@ export default {
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-	  {test: /\.scss$/, loader: 'style!css!sass'}
+	  {test: /\.scss$/, loader: 'style!css!autoprefixer!sass'}
     ]
   }
 }

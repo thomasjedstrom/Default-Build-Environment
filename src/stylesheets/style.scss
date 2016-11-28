@@ -4,6 +4,9 @@ $mainColor: #8DDA6C;
 	background-color: $mainColor;
 	font-family: sans-serif;
 }
+body{
+	display: flex;
+}
 h1{
 	display: inline-block;
 	margin: auto;
