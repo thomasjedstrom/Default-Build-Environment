@@ -1,6 +1,9 @@
-require('../../node_modules/bootstrap/dist/css/bootstrap.css')
+// require('../../node_modules/bootstrap/dist/css/bootstrap.css')
 
 // import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+// import jquery from 'jquery';
+// import bootstrap from 'bootstrap';
 import '../stylesheets/style.scss';
 
 import numeral from 'numeral';

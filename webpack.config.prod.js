@@ -58,7 +58,8 @@ export default {
   module: {
     loaders: [
       {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-      {test: /\.css$/, loader: ExtractTextPlugin.extract('css?sourceMap')}
+      {test: /\.css$/, loader: ExtractTextPlugin.extract('css?sourceMap')},
+	  {test: /\.scss$/, exclude: /node_modules/, loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader!sass-loader")}
     ]
   }
 }
